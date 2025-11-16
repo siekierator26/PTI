@@ -12,7 +12,7 @@
         if (!isset($_GET["poziom"])) {$poziom="1";} else {$poziom=$_GET["poziom"];}; 
         if (!isset($_GET["pion"]))   {$pion="1";}   else {$pion=$_GET["pion"];}; 
             echo '<div id="header">
-            <h1>Grzegorz Poniewierski oraz Dawid Piechowski</h1>
+            <h1>Lorem oraz Ipsum</h1>
         </div>
 
         <div id="menu_poziom">
@@ -47,7 +47,7 @@
             <h1>Wybrano poziom '.$poziom.' pion '.$pion.'</h1>
             ';
             if($poziom==1 && $pion==1){
-                echo 'Grzegorz Poniewierski i Dawid Piechowski';
+                echo 'Lorem oraz Ipsum';
             } else if($poziom==1 && $pion==2){
                 echo 'do zobrazowania rzeczy';
             } else if($poziom==1 && $pion==3){
@@ -77,4 +77,5 @@
         ?>
     </body>
     
+
 </html>
