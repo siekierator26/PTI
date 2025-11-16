@@ -1,0 +1,42 @@
+#header{
+    width: 100%;
+    float: left;
+    background-color: lightgray;
+    text-align: center;
+}
+
+#menu_poziom{
+    width: 100%;
+    float: left;
+    text-align: center;
+}
+
+#menu_pion{
+    width: 10%;
+    float: left;
+    text-align: center;
+}
+
+#text{
+    width: 89%;
+    height: 500px;
+    float: left;
+    border: 1px solid black;
+    text-align: center;
+    margin-bottom: 100px;
+}
+
+#stopka{
+    width: 100%;
+    float: left;
+    background-color: lightgray;
+    text-align: center;
+}
+
+li{
+    list-style: none;
+}
+
+#menu_poziom > ul > li{
+    display: inline-block;
+}
